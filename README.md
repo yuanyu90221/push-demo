@@ -12,7 +12,7 @@ https://console.firebase.google.com/u/0/project/webfirebasedb/settings/cloudmess
 
 ``` npm install -g expo```
 
-# Step3: Write registerNotification Logic
+# Step3: Write registerNotification Logic
 
 ```code
 async registerForPushNotifictions() {
