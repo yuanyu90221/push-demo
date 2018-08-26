@@ -8,6 +8,10 @@ https://console.firebase.google.com/u/0/project/webfirebasedb/settings/cloudmess
 
 ```create-react-native-app push-demo```
 
+# Step2.1: install expo cli
+
+``` npm install -g expo```
+
 # Step3: Write registerNotification Logic
 
 ```code
@@ -67,3 +71,10 @@ sendPushNotification(token = this.state.token, title = this.state.title, body = 
 
 # Step6: download the google-services.json for app
  
+# Step7: build android app
+
+    expo build:android
+
+# Step8: setup cloud message api key to app
+
+    exp push:android:upload --api-key ${cloud-message-api-key}
